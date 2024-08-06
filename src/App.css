@@ -1,6 +1,51 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* HEADER */
+
+header {
+  width: 100%;
+}
+
+.logo {
+  margin: 0 10px;
+}
+
+.img-profile-display {
+  padding: 4px 2px;
+  width: 50px;
+  border-radius: 50%;
+  vertical-align: bottom;
+}
+
+/* NAVBAR */
+
+.custom-navbar {
+  background-color: rgb(150, 230, 214);
+  margin: 0;
+  padding: 0 10px !important;
+}
+
+.custom-navbar .nav-link {
+  color: #2554b2 !important;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #e864e6 !important;
+}
+
+.mr-auto {
+  font-size: 14px;
+  margin-right: auto;
+}
+
+#collapsible-nav-dropdown .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+
+#collapsible-nav-dropdown .dropdown-menu {
+  background-color: rgb(150, 230, 214);
+}
+
+.custom-navbar .navbar-toggler {
+  border: none;
+  box-shadow: none;
 }
