@@ -1,9 +1,10 @@
 import './App.css'
+import { Header } from './components/Header'
 
 function App() {
   return (
     <section>
-      <h1>Photoleague</h1>
+      <Header />
     </section>
   )
 }
